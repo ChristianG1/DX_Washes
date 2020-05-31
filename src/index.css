@@ -1,13 +1,98 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+}
+.border-radius{
+  border-radius: 3rem !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.yellow{
+  color:#F1C40F;
+}
+.mayusculas { 
+  text-transform: uppercase;
+}
+.tamaño-texto { 
+  font-size: 1.3rem;
+}
+.tamaño-texto-funcionamiento{
+  font-size: 1.1rem;
+}
+.tamaño-titulo{
+  font-size: 3.3rem;
+}
+.tamaño-subtitulo { 
+  font-size: 2.3rem;
+}
+.tamaño-funciona{
+  font-size: 2rem;
+  color: #0089BB;
+
+}
+.fondo-azul{ 
+  background-color: #0089BB;
+}
+
+.blue { 
+  color: rgb(0, 136, 190);
+}
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(250, 250, 250, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  transform: scale(1.1);
+}
+
+.header { 
+  height: 100vh;
+  background-image: 
+      linear-gradient(to right bottom, 
+      rgba(22, 133, 236, 0.712), rgba(12, 123, 175, 0.801)), 
+      url(./img/girl2.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+.text-box { 
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+.heading-primary { 
+  color: #FFF;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  margin-bottom: 0rem;
+}
+
+.heading-primary-main { 
+  display: block;
+  font-size: 6rem;
+  font-weight: 400;
+  letter-spacing: 1rem;
+}
+
+/*Texto 2: Eslogan*/
+.heading-primary-sub { 
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1.2rem;
 }
